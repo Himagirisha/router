@@ -5,6 +5,7 @@ import HomeComp from "./components/HomeComp";
 import OfficeComp from "./components/OfficeComp";
 import LoginComp from "./components/LoginComp";
 import SignupComp from './components/SignupComp'
+import FetchProducts from './components/FetchProducts'
 
 let router = createRouter({
   history: createWebHistory(),
@@ -24,6 +25,10 @@ let router = createRouter({
     {
       path: "/signup",
       component: SignupComp,
+    },
+    {
+      path: "/fetchproducts",
+      component: FetchProducts,
     },
   ],
 });
